@@ -1,0 +1,67 @@
+#######################################
+# Terraform
+#######################################
+
+# Local .terraform directories
+**/.terraform/*
+**/.terraform/
+
+# Terraform state files (VERY IMPORTANT)
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file (optional)
+# Keep it if you want reproducible builds
+.terraform.lock.hcl
+
+# Terraform variable files with secrets
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+#######################################
+# Environment folders (local only)
+#######################################
+
+development/
+production/
+
+#######################################
+# Logs & crash files
+#######################################
+
+crash.log
+crash.*.log
+
+#######################################
+# OS / Editor junk
+#######################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+#######################################
+# Archives / backups
+#######################################
+
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.old
